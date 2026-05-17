@@ -1,38 +1,72 @@
-Internship Search Page Clone
+# Internship Search Platform
 
-A React.js internship search platform inspired by the Internshala internships page. The application allows users to browse internships, apply frontend filters, paginate results, and switch between light and dark mode.
+A modern Internship Search Platform inspired by the Internshala internships page, built using React.js and Vite. The application allows users to browse internship opportunities, apply frontend filters, paginate results, and switch between light and dark themes.
 
-Features:
+---
 
-- Internship listings fetched using API
-- Frontend-only filtering
-- Filter by:
-    Internship Profile
-    Location
-    Work From Home
-    Part-Time
-    Minimum Stipend
-- Real Pagination
-- Dark Mode
-- Responsive Design
+## Live Demo
+
+https://your-vercel-link.vercel.app
+
+---
+
+## Features
+
+### Internship Listings
+- Fetches internship data dynamically using API
+- Displays internship cards with details and tags
+
+### Frontend Filtering
+Users can filter internships by:
+- Internship Profile
+- Location
+- Work From Home
+- Part-Time
+- Minimum Stipend
+
+### Pagination
+- Dynamic pagination
+- Previous / Next navigation
+- 10 internships per page
+
+### Dark Mode
+- Toggle between light and dark themes
+- Modern UI experience
+
+### Responsive Design
+- Mobile responsive
+- Tablet responsive
+- Desktop optimized
+
+### Additional Sections
 - Testimonials Section
 - FAQ Accordion
 - Internship Tags & Badges
-- Clean and Modular React Components
 
-Tech Stack:
+---
 
--React.js
--Vite
--Axios
--CSS3
+## Tech Stack
 
-API Used:
+### Frontend
+- React.js
+- Vite
+- CSS3
+
+### API
+- Axios
+- Internshala Hiring API
+
+---
+
+## API Used
 
 https://internshala.com/hiring/search
 
-Project Structure:
+---
 
+## Folder Structure
+
+```bash
 src/
 │
 ├── components/
@@ -58,7 +92,7 @@ src/
 │
 ├── App.jsx
 └── main.jsx
-
+```
 
 Installation & Setup:
 
