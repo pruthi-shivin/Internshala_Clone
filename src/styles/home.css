@@ -1,0 +1,30 @@
+.home-container {
+  display: flex;
+  gap: 20px;
+  padding: 30px 80px;
+}
+
+.left-section {
+  width: 25%;
+}
+
+.right-section {
+  width: 75%;
+}
+
+.internship-count {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+
+  .home-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+  }
+}
